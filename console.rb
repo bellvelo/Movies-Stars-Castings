@@ -8,13 +8,15 @@ Star.delete_all
 
 movie1 = Movie.new({
   "title" => "Jaws",
-  "genre" => "Shark"
+  "genre" => "Shark",
+  "budget" => 5000
   })
 movie1.save()
 
 movie2 = Movie.new({
   "title" => "Gosford Park",
-  "genre" => "Whodunnit"
+  "genre" => "Whodunnit",
+  "budget" => 10000
   })
 movie2.save()
 
